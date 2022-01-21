@@ -32,11 +32,21 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         #-------------disable/enable-----------#
                                                     
 
+
+    # ----------------------------------event function------------------------------------- #
+    #  Call:    Each time the edition check box change value, called localy only            #
+    #  Action:  Swap what is enable/disable on the interface                                #
+    # ------------------------------------------------------------------------------------- #
+    def editManage(self):
+        ...
+
+
+
     # ----------------------------------parameter function--------------------------------- #
     #  Action: return the value of the checkbox                                             #
     # ------------------------------------------------------------------------------------- #
-
-
+    def editEnable(self):
+        ...
 # ------------------------------------------------------------------------------------------#    
 
     
