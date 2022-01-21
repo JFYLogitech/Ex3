@@ -8,8 +8,8 @@ class cEx3Serial():
     #  Call:    Call at the creation of the object                                          #
     #  Action:  instanciate the serial object withe parametre given                         #
     # ------------------------------------------------------------------------------------- #        
-    def __init__(self):
-        self.ser = serial.Serial(port='COM6',baudrate=9600,timeout=1)                       # setup the serial object
+    def __init__(self,...,...):
+        self.ser = serial.Serial(port=...,baudrate=...,timeout=1)                       # setup the serial object
 
 
     # ----------------------------------parameter function--------------------------------- #
@@ -25,7 +25,10 @@ class cEx3Serial():
     def send(self,data):
         ...                 
 
-
+    # ----------------------------------parameter function--------------------------------- #
+    #  Action: close the serial port                                                        #
+    # ------------------------------------------------------------------------------------- #
+    ...
 
 # ------------------------------------------------------------------------------------------#
 

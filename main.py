@@ -13,9 +13,20 @@ class mainProject():
     # ------------------------------------------------------------------------------------- #    
     def __init__(self):
         self.app = QApplication(sys.argv)                                                   # initialise QT
-        self.window = MainWindow(self...,self...)                                                          # create the window object
+        self.window = MainWindow(self...,self...,self...)                                                          # create the window object
         self.window.show()                                                                  # make the windows visible
         
+
+    # ----------------------------------event function------------------------------------- #
+    #  Call:    Each time the edition check box change value                                #
+    #  Action:  Initialise the serial if the box is ON                                      #
+    # ------------------------------------------------------------------------------------- #    
+    def editHasChange(self):                                                                # check the state of the box
+        if self.window.editEnable() == True:                                                # initialise the serial
+            ...
+        else:               
+            ...                                                                             # verify if the serial exist before closing it
+            ...                                                                             # close the serial
 
 
 

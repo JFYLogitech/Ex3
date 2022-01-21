@@ -21,13 +21,14 @@ class MainWindow(QMainWindow, Ui_MainWindow):
     #  Action:  create the window and connect the button to the action, place               #
     #           the interface in an unconfigurated state by disabling some button           #
     # ------------------------------------------------------------------------------------- #    
-    def __init__(self,...,..., *args, obj=None, **kwargs):
+    def __init__(self,...,...,..., *args, obj=None, **kwargs):
         #-------initialise the superclass------#
         super(MainWindow, self).__init__(*args, **kwargs)                                   # intialise the class interface
         self.setupUi(self)                                                                  # setup the interface  
 
 
         #-----------connect the event----------#
+        ...                                                                                 # connect the checkbox to the parameter
         ...                                                                                 # connect the checkboxt to a local function
         ...                                                                                 # connect the send button to the parameter
         ...                                                                                 # connect the read button to the parameter         
