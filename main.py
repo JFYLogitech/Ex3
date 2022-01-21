@@ -13,9 +13,29 @@ class mainProject():
     # ------------------------------------------------------------------------------------- #    
     def __init__(self):
         self.app = QApplication(sys.argv)                                                   # initialise QT
-        self.window = MainWindow()                                                          # create the window object
+        self.window = MainWindow(self...,self...)                                                          # create the window object
         self.window.show()                                                                  # make the windows visible
         
+
+
+
+    # ----------------------------------event function------------------------------------- #
+    #  Call:    When the send button is pressed                                             #
+    #  Action:  send the data from the text box to the serial                               #
+    # ------------------------------------------------------------------------------------- #
+    def sendData(self):        
+        ...
+
+
+
+    # ----------------------------------event function------------------------------------- #
+    #  Call:    When the button read is pressed                                             #
+    #  Action:  Read data from the serial and display them in the text box                  #
+    # ------------------------------------------------------------------------------------- #  
+    def getData(self):
+        ...
+
+
 # ------------------------------------------------------------------------------------------#
 
 

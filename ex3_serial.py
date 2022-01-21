@@ -10,6 +10,23 @@ class cEx3Serial():
     # ------------------------------------------------------------------------------------- #        
     def __init__(self):
         self.ser = serial.Serial(port='COM6',baudrate=9600,timeout=1)                       # setup the serial object
+
+
+    # ----------------------------------parameter function--------------------------------- #
+    #  Action: read the data from the serial and return them as a string                    #
+    # ------------------------------------------------------------------------------------- #
+    def read(self):
+        ...                                                                                 # get data from serial
+        return ...                                                                          # return a str
+
+    # ----------------------------------parameter function--------------------------------- #
+    #  Action: send the data on the serial                                                  #
+    # ------------------------------------------------------------------------------------- #
+    def send(self,data):
+        ...                 
+
+
+
 # ------------------------------------------------------------------------------------------#
 
 
