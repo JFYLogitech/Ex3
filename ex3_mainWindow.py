@@ -26,6 +26,17 @@ class MainWindow(QMainWindow, Ui_MainWindow):
         super(MainWindow, self).__init__(*args, **kwargs)                                   # intialise the class interface
         self.setupUi(self)                                                                  # setup the interface  
 
+
+        #-----------connect the event----------#
+                                                                                            # connect the checkboxt to a local function
+        #-------------disable/enable-----------#
+                                                    
+
+    # ----------------------------------parameter function--------------------------------- #
+    #  Action: return the value of the checkbox                                             #
+    # ------------------------------------------------------------------------------------- #
+
+
 # ------------------------------------------------------------------------------------------#    
 
     
